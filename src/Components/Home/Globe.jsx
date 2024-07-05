@@ -12,8 +12,8 @@ const Object=({position,size,color})=>{
         ref.current.rotation.y +=delta
         
     })   
-    const earthDay=useTexture('earth-day.jpg')
-    const earthNight=useTexture('earth-night.jpg')
+    const earthDay=useTexture('earth2.jpg')
+    const earthNight=useTexture('earth2.jpg')
 
 
     return(
