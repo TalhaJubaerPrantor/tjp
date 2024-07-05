@@ -5,6 +5,7 @@ import Skills from "./Skills.jsx";
 import * as THREE from 'three'
 import { Center } from "@react-three/drei";
 import Footer from "../Footer/Footer.jsx";
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 
 
@@ -17,7 +18,11 @@ const Home = () => {
                 <h1 style={{fontFamily:"monospace"}}>I am Talha Jubaer Prantor</h1>
                 <h2 style={{fontFamily:"monospace"}}>Presenting you the websites of next level...</h2>
                 <h2 style={{fontFamily:"monospace"}}>I am here to help you to make your websites alive with 3D models using ThreeJs,GSAP and many other technology</h2>
-                <h2 style={{fontFamily:"monospace"}}>So why be simple when you can be extraordinary</h2>
+                <h2 style={{fontFamily:"monospace"}}>So why be simple when you can be extraordinary</h2><br /><br />
+                <a href="/"><FaFacebook/></a>
+                <a href="/"><FaWhatsapp/></a>
+                <a href="/"><FaLinkedin/></a>
+                <a href="/"><FaGithub/></a>
             </div>
             <div className="home-sec-2">
             <Canvas className="globe" style={{height:"40vh"}}>

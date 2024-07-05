@@ -7,16 +7,16 @@ import { useRef, useState } from "react";
 
 const Skills = (props) => {
 
-        const html=useTexture('html.png');
-        const css=useTexture('css.png');
-        const js=useTexture('javascript.png');
-        const react=useTexture('react.png');
+        const html=useTexture('html.svg');
+        const css=useTexture('css.svg');
+        const js=useTexture('js.svg');
+        const react=useTexture('react.svg');
         const three=useTexture('three.png');
-        const node=useTexture('node.png');
-        const express=useTexture('express.png');
-        const mongoDb=useTexture('mongodb.png');
-        const cpp=useTexture('cpp.png');
-        const gitHub=useTexture('github.png');
+        const node=useTexture('node.svg');
+        const express=useTexture('express.svg');
+        const mongoDb=useTexture('mongodb.svg');
+        const cpp=useTexture('cpp.svg');
+        const gitHub=useTexture('github.svg');
 
         const texture=props.textures.texture;
 
